@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(./font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+/* Daftar sc */
+.daftar-boxes {
+    padding: 100px 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px   ;
+}
+.daftar-fix__1 {
+    position: relative;
+    bottom: 8px;
+    left: 10px;
+}
+.daftar-fix__2 {
+    position: relative;
+    bottom: 5px;
+}
+.daftar-fix__5 {
+    font-weight: 500;
+    position: relative;
+    left: 15px;
+}
+.daftar-box {
+    width: 300px;
+    height: 482px;
+}
+.image-shadow {
+    position: absolute;
+    transform: translateX(10px);
+}
+.daftar-image h1 {
+    font-size: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    transform: translateY(-65px) translateX(20px);
+}
+.daftar-number {
+    position: absolute;
+    transform: translateX(28px) translateY(28px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+.daftar-text {
+    display: flex;
+   padding: 36px 22px;
+    position: absolute;
+    transform: translateY(-25px) translateX(10px);
+    width: 300px;
+    height: 190px;
+    border-radius: 5px;
+    background-color: #F9FBFD;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.daftar-h1 p {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+.daftar-p p {
+    position: relative;
+    left: 17px;
+    font-size: 14px;
+    margin-bottom: 11px;
+}
+.daftar-p span {
+    margin-right: 10px;
+}
+#fix-8 {
+    position: relative;
+    top: 4px;
+    z-index: 2;
+}
+#daftar-fix__4-4 {
+    position: relative;
+    bottom: 5px;
+}
